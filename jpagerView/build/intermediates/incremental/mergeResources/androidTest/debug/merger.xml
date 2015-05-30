@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="21.0.3"><source path="/Users/Frank/AndroidStudioProjects/ZhiHu/jpagerView/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/res"/></dataSet><dataSet config="debug"><source path="/Users/Frank/AndroidStudioProjects/ZhiHu/jpagerView/build/intermediates/bundles/debug/res"><file path="/Users/Frank/AndroidStudioProjects/ZhiHu/jpagerView/build/intermediates/bundles/debug/res/values/values.xml" qualifiers=""><declare-styleable name="myviewpager"><attr name="hint_mode"><enum name="point" value="0"/><enum name="number" value="1"/></attr><attr name="hint_gravity"><enum name="left" value="0"/><enum name="center" value="1"/><enum name="right" value="2"/></attr><attr format="integer" name="autoplay"/><attr format="color" name="hint_color"/><attr format="integer" name="hint_alpha"/></declare-styleable><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><string name="app_name">JpagerView</string><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style></file><file path="/Users/Frank/AndroidStudioProjects/ZhiHu/jpagerView/build/intermediates/bundles/debug/res/values-v11/values.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="/Users/Frank/AndroidStudioProjects/ZhiHu/jpagerView/build/intermediates/bundles/debug/res/values-v14/values.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file></source></dataSet><dataSet config="main"><source path="/Users/Frank/AndroidStudioProjects/ZhiHu/jpagerView/src/androidTest/res"/><source path="/Users/Frank/AndroidStudioProjects/ZhiHu/jpagerView/build/generated/res/rs/androidTest/debug"/><source path="/Users/Frank/AndroidStudioProjects/ZhiHu/jpagerView/build/generated/res/generated/androidTest/debug"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="myviewpager"><attr name="hint_mode"><enum name="point" value="0"/><enum name="number" value="1"/></attr><attr name="hint_gravity"><enum name="left" value="0"/><enum name="center" value="1"/><enum name="right" value="2"/></attr><attr format="integer" name="autoplay"/><attr format="color" name="hint_color"/><attr format="integer" name="hint_alpha"/></declare-styleable></configuration></mergedItems></merger>

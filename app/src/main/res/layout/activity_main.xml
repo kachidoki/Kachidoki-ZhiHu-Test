@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/include_toolbar"/>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.malinskiy.superrecyclerview.SuperRecyclerView
+
+                android:id="@+id/recyclerview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical"
+            android:layout_gravity="left" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:background="@color/blue">
+
+                <com.text.kachidoki.zhihu.widget.CircularImage
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:id="@+id/icon"
+                    android:src="@drawable/test1"
+                    android:layout_marginTop="48dp"
+                    android:layout_gravity="left"
+                    />
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="10dp"
+                    android:text="kachidoki"
+                    android:gravity="left"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="200dp"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:text="退出"
+                android:onClick="exitLogin"
+                android:textSize="18sp"/>
+
+
+        </LinearLayout>
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@android:color/holo_red_light"-->
+            <!--android:layout_gravity="right" >-->
+        <!--</LinearLayout>-->
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+
+
+</LinearLayout>

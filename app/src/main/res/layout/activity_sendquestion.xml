@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/include_toolbar"/>
+    <EditText
+        android:id="@+id/send_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="请输入标题"
+        android:textSize="18sp"
+        android:gravity="center_vertical"/>
+    <EditText
+        android:id="@+id/send_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="请输入内容"
+        android:textSize="18sp"
+        android:gravity="center_vertical"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="发布问题"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:onClick="send"/>
+
+</LinearLayout>

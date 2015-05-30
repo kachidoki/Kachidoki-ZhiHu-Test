@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/include_toolbar"></include>
+
+    <com.text.kachidoki.zhihu.widget.CircularImage
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:id="@+id/icon"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/login_name"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="16dp"
+        android:hint="用户名"
+        android:layout_marginRight="16dp"/>
+    <EditText
+        android:id="@+id/login_password"
+        android:hint="密码"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <!--android:background="?attr/colorAccent"-->
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="16dp"
+        android:textColor="@android:color/white"
+        android:background="@color/blue"
+        android:onClick="Login"
+        android:text="登陆"/>
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="16dp"
+        android:textColor="@android:color/white"
+        android:background="@color/blue"
+        android:onClick="register"
+        android:text="注册"/>
+
+</LinearLayout>
